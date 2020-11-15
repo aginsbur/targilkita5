@@ -1,0 +1,14 @@
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\bin\Debug\targilKita5.exe.config
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\bin\Debug\targilKita5.exe
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\bin\Debug\targilKita5.pdb
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\App.g.cs
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5_MarkupCompile.cache
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5_MarkupCompile.lref
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\MainWindow.baml
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5.g.resources
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5.Properties.Resources.resources
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5.exe
+C:\Users\Owner\source\repos\ConsoleApp1\targilKita5\targilKita5\obj\Debug\targilKita5.pdb
