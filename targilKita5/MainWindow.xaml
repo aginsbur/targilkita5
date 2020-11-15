@@ -1,0 +1,16 @@
+﻿<Window x:Class="targilKita5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:targilKita5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ButtonStop" Content="Stop" HorizontalAlignment="Left" Margin="84,75,0,0" VerticalAlignment="Top" Width="115" Height="49" Background="#FFFF0023" FontFamily="Arial Black" Click="ButtonStop_Click"/>
+        <Button x:Name="ButtonSlow" Content="Slow" HorizontalAlignment="Left" Margin="84,160,0,0" VerticalAlignment="Top" Width="115" Height="55" FontFamily="Arial Black" Background="#FFF1FF00"/>
+        <Button x:Name="ButtonGo" Content="Go" HorizontalAlignment="Left" Margin="84,249,0,0" VerticalAlignment="Top" Width="115" Height="49" Background="#FF2DFF00" FontFamily="Arial Black" Click="Button_Click"/>
+        <Image x:Name="carPic" HorizontalAlignment="Left" Height="113" Margin="592,298,0,0" VerticalAlignment="Top" Width="191" Source="carpic.png"/>
+
+    </Grid>
+</Window>
