@@ -23,16 +23,28 @@ namespace targilKita5
         public MainWindow()
         {
             InitializeComponent();
+            carPosition = picCar.Margin.Left;
         }
 
         private void ButtonStop_Click(object sender, RoutedEventArgs e)
         {
+            picWarning.Visibility = Visibility.Hidden;
             MessageBox.Show("Brakes!!!");
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            carPosition -= 50;
+            carPosition -= 80;
+            picCar.Margin = new Thickness(carPosition,282, 0, 0);
+        }
+
+        private void ButtonSlow_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("slowing down!");
+            picWarning.Visibility = Visibility.Visible;
+            carPosition -= 40;
+            picCar.Margin = new Thickness(carPosition,282, 0, 0);
         }
     }
 }

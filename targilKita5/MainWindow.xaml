@@ -7,10 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="ButtonStop" Content="Stop" HorizontalAlignment="Left" Margin="84,75,0,0" VerticalAlignment="Top" Width="115" Height="49" Background="#FFFF0023" FontFamily="Arial Black" Click="ButtonStop_Click"/>
-        <Button x:Name="ButtonSlow" Content="Slow" HorizontalAlignment="Left" Margin="84,160,0,0" VerticalAlignment="Top" Width="115" Height="55" FontFamily="Arial Black" Background="#FFF1FF00"/>
-        <Button x:Name="ButtonGo" Content="Go" HorizontalAlignment="Left" Margin="84,249,0,0" VerticalAlignment="Top" Width="115" Height="49" Background="#FF2DFF00" FontFamily="Arial Black" Click="Button_Click"/>
-        <Image x:Name="carPic" HorizontalAlignment="Left" Height="113" Margin="592,298,0,0" VerticalAlignment="Top" Width="191" Source="carpic.png"/>
+        <Button x:Name="ButtonRed" Content="Stop" HorizontalAlignment="Left" Margin="84,75,0,0" VerticalAlignment="Top" Width="115" Height="49" Background="#FFFF0023" FontFamily="Arial Black" Click="ButtonStop_Click"/>
+        <Button x:Name="ButtonYellow" Content="Slow" HorizontalAlignment="Left" Margin="84,160,0,0" VerticalAlignment="Top" Width="115" Height="55" FontFamily="Arial Black" Background="#FFF1FF00" Click="ButtonSlow_Click"/>
+        <Button x:Name="ButtonGreen" Content="Go" HorizontalAlignment="Left" Margin="84,249,0,0" VerticalAlignment="Top" Width="115" Height="49" Background="#FF2DFF00" FontFamily="Arial Black" Click="Button_Click"/>
+        <Image x:Name="picCar" HorizontalAlignment="Left" Margin="687,282,0,0" VerticalAlignment="Top" Width="96" Source="carpic.png" Visibility="Visible" Height="78"/>
+        <Image x:Name="picWarning" HorizontalAlignment="Left" Height="164" Margin="370,75,0,0" VerticalAlignment="Top" Width="185" Source="wp.jpg" Visibility="Hidden"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="583,66,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
